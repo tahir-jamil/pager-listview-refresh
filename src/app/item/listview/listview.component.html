@@ -1,0 +1,7 @@
+<ListView [items]="source" class="list-group">
+  <ng-template let-item="item" let-odd="odd" let-even="even">
+    <StackLayout>
+      <Label [text]="item.employee_name" class="list-group-item"></Label>
+    </StackLayout>
+  </ng-template>
+</ListView>
